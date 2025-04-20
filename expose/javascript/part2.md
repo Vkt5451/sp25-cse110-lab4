@@ -69,3 +69,12 @@ F) true, this is becasue: Boolean(2) converts the value 2 to a boolean. Any any 
 
 
 15. For "==", type coercion happens automatically and it compares values not types. The main idea is that it converts the values to a common type before comparing. However for "===", "===" compares both value and type and does not perform any type coercion, meaning the values must be exactly the same in both type and value to be considered equal. 
+
+
+17. The function will return the newArr array which holds the values [2,4,6]. The reason for this is because in the modifyArray function we are passing in the array [1,2,3] to be used, and we are also able to access the doSomething function referenced callback. We then create a new array to store new values obtained throughout the operation. During the for loop, at each iteration, the value i at array[i] is being passed into the callback function, and that callback function returns the value * 2. When returned, the value is pushed into the new array that we initalized earlier, this repeats until there are no more iterations.
+
+19. The ouput of the above code is:
+1
+4
+3
+2
