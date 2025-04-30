@@ -1,2 +1,2 @@
-1. What was the bug?
-2. How would you fix it? Include a screenshot of your fix. Name it fix.png (or whatever image extension you would like to use) and add it to your expand/screenshots directory.
+1. The bug within the program was that the values were being passed as strings instead of integers. which means that the variables of num1 and num2 were being added together as strings and not integers. This means that when we add two strings, we get the concatenation, and when integers we get the sum of those numbers being added together.
+2.  To fix this issue of obtaining the sums of the numbers, we can parse the values of num1 and num2 as intergers, we can in a way typecast or convert them to numbers (i.e. Number(num1)). Using this method will coerce them into being numbers giving us the added value of the sum num1+num2 a number.
