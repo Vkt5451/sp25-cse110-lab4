@@ -20,10 +20,6 @@
 
 11. The function will still return the array discounted at line 14, "return discounted", but nothing is being logged so we won't see anything in the console as we commented out the lines "console.log(.....)".
 
-
-
-
-
 12. 
 A) To access the value of the name property, the notation would be "student.name", and to print the value: 
 console.log(student.name);       
